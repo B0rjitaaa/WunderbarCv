@@ -1,5 +1,5 @@
 """
-Django settings for wundebareklang project.
+Django settings for jaretz_cms project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -15,7 +15,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 IS_ON_OPENSHIFT = False
 if 'OPENSHIFT_REPO_DIR' in os.environ:
     IS_ON_OPENSHIFT = True
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
@@ -86,7 +85,6 @@ DATE_FORMAT = 'd/m/Y'
 
 DATE_INPUT_FORMATS = ('%d/%m/%Y',)
 DATETIME_INPUT_FORMATS = ('%d/%m/%Y %H:%M',)
-USE_TZ = True
 
 
 # Static files (CSS, JavaScript, Images)
