@@ -252,13 +252,13 @@ a.button.scroll:hover {
 #services > div > div> img:hover {
 	opacity: 0.6;
 }
-.span_1_of_3 {
-	width: 30.6%;
+.span_1_of_4 {
+	width: 22.6%;
 	text-align: center;
 	margin-top: 1%;
 	padding-bottom: 1%;
 }
-.span_1_of_3 h4 a {
+.span_1_of_4 h4 a {
 	font-family: 'Noto Sans', sans-serif;
 	color: #E4E4E4;
 	font-size: 1.6em;
@@ -268,10 +268,10 @@ a.button.scroll:hover {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.span_1_of_3 h4 a:hover{
+.span_1_of_4 h4 a:hover{
 	color:#F8BC3A;
 }
-.span_1_of_3  p  {
+.span_1_of_4  p  {
 	font-family: 'Noto Sans', sans-serif;
 	font-size:1em;
 	padding:0.5em 0;
@@ -280,7 +280,7 @@ a.button.scroll:hover {
 	font-weight: 100;
 	font-style: normal;
 }
-.span_1_of_3 p a {
+.span_1_of_4 p a {
 	padding: 13px 20px;
 	color: #E4E4E4;
 	font-size: 0.8755em;
@@ -294,7 +294,7 @@ a.button.scroll:hover {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.span_1_of_3 p a:hover {
+.span_1_of_4 p a:hover {
 	color: #F8BC3A;
 	border: 2px solid #F8BC3A;
 }
@@ -1378,7 +1378,7 @@ display:none;
 	.services p,.portfoliO p,.tm-head p,.ex-head p,.fun-head p,.blog-head p,.studio-head p,.client-head p,.pricing-head p,.contact p {
 		font-size: 0.8755em;
 	}
-	.span_1_of_3 h4 a {
+	.span_1_of_4 h4 a {
 		font-size: 1.4em;
 	}
 	#filters li span {
@@ -1546,7 +1546,7 @@ display:none;
 	.services h3, .portfoliO h3, .tm-head h3, .ex-head h3, .fun-head h3, .blog-head h3, .studio-head h3, .client-head h3, .pricing-head h3, .contact h3 {
 		font-size: 1.2em;
 	}
-	.span_1_of_3 h4 a {
+	.span_1_of_4 h4 a {
 		font-size: 1em;
 	}
 	#filters li span {
@@ -1604,7 +1604,7 @@ display:none;
 	.bottom-social-icons {
 		width: 37%;
 	}
-	.span_1_of_3 p a {
+	.span_1_of_4 p a {
 		padding: 8px 13px;
 	}
 	.img {
@@ -1633,7 +1633,7 @@ display:none;
 	a.button.scroll {
 		top: 160px;
 	}
-	.span_1_of_3 {
+	.span_1_of_4 {
 		width: 100%;
 	}
 	#services > div > div> img {
@@ -1641,7 +1641,7 @@ display:none;
 	    margin-top: 0%;
 		padding-bottom: 0%; 
 	}
-	.span_1_of_3 p {
+	.span_1_of_4 p {
 		padding: 0.5em 0 0;
 	}
     #filters {
