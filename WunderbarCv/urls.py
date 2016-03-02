@@ -12,4 +12,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'cv.views.index', name='index'),
+    url(r'^bio/', 'cv.views.bio', name='bio'),
 )+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -48,6 +48,13 @@ body {
 	z-index: 1000;
 	width: 100%;
 }
+.subMenu2 {
+	position: absolute;
+	top: 0px;
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+}
 
 .subMenu .inner {
 	padding:0;
@@ -55,6 +62,17 @@ body {
 }
 
 .subMenu {
+	padding: 1.2em 1em 5em 0em;
+	background: #DE654E; 
+	float: left;
+}
+
+.subMenu2 .inner {
+	padding:0;
+	font-weight: 400;
+}
+
+.subMenu2 {
 	padding: 1.2em 1em 5em 0em;
 	background: #DE654E; 
 	float: left;

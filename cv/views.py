@@ -6,3 +6,7 @@ from django.http import HttpResponse
 def index(request):
 	response = {}
 	return render(request, 'index.html', response)
+
+def bio(request):
+	response = {}
+	return render(request, 'bio.html', response)

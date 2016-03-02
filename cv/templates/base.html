@@ -1,0 +1,203 @@
+{% load static %}
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>Borja M. Merchán</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		{% block custom_css %}
+			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+			<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+	        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+	        <link href="{% static 'css/slider.css' %}" rel="stylesheet">
+	        <link href="{% static 'css/swipebox.css' %}" rel="stylesheet">
+			<link href="{% static 'css/magnific-popup1.css' %}" rel="stylesheet">
+			<link href="{% static 'css/magnific-popup.css' %}" rel="stylesheet">
+			<link href="{% static 'css/lightbox.css' %}" rel="stylesheet"  media="screen">
+			<link href="{% static 'css/header_style1.css' %}" rel="stylesheet"  media="all">
+			<link href="{% static 'css/progress.css' %}" rel="stylesheet"  media="all">
+			<link href="{% static 'css/bio.css' %}" rel="stylesheet"  media="all">
+		{% endblock custom_css %}
+	</head>
+	<body>
+
+		{% block slider %} {% endblock slider %}
+		{% block header %}
+			
+		{% endblock header %}
+
+		{% block main %}
+			
+			{% block services %} {% endblock services %}
+
+			{% block portfolio %} {% endblock portfolio %}
+
+			{% block skills %} {% endblock skills %}
+
+			{% block fun %} {% endblock fun %}
+
+			{% block personal %} {% endblock personal %}
+
+			{% block bio %}
+				
+			{% endblock bio %}
+
+		{% endblock main %}
+
+		
+
+			
+		   		        
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+
+		    <script src="{% static 'js/modernizr.custom.28468.js' %}"></script>
+			<script src="{% static 'js/jquery.cslider.js' %}"></script>
+			<script src="{% static 'js/fliplightbox.min.js' %}"></script>
+			<script src="{% static 'js/jquery.easing.min.js' %}"></script>
+			<script src="{% static 'js/jquery.mixitup.min.js' %}"></script>
+			<script src="{% static 'js/jquery.magnific-popup.js' %}"></script>
+			<script src="{% static 'js/jquery.lightbox.js' %}"></script>
+			<script src="{% static 'js/jquery.smint.js' %}"></script>
+			<script src="{% static 'js/responsive.menu.js' %}"></script>
+			<script src="{% static 'js/flexy-menu.js' %}"></script>
+			<script src="{% static 'js/jquery.flexisel.js' %}"></script>
+			<script src="{% static 'js/move-top.js' %}"></script>
+
+			
+			<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					$(".scroll").click(function(event){		
+						event.preventDefault();
+						$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+					});
+				});
+			</script>
+
+			<script type="text/javascript">$(document).ready(function(){$(".flexy-menu").flexymenu({speed: 400,type: "horizontal",align: "right"});});</script>
+												
+			<!---End-image-cursuals---->
+			<script type="text/javascript">
+				$(window).load(function() {
+			    	$(".flexiselDemo3").flexisel({
+				        visibleItems: 5,
+				        animationSpeed: 1000,
+				        autoPlay: true,
+				        autoPlaySpeed: 3000,            
+				        pauseOnHover: true,
+				        enableResponsiveBreakpoints: true,
+				        responsiveBreakpoints: { 
+				            portrait: { 
+				                changePoint:480,
+				                visibleItems: 1
+				            }, 
+				            landscape: { 
+				                changePoint:640,
+				                visibleItems: 2
+				            },
+				            tablet: { 
+				                changePoint:768,
+				                visibleItems: 3
+				            }
+				        }
+			   		});
+				});
+			</script>
+
+			<script type="text/javascript">
+				$(function() {
+				
+					$('#da-slider').cslider({
+						autoplay	: true,
+						bgincrement	: 450
+					});
+				
+				});
+			</script>
+
+			<!---//strat-slider---->
+		 	<!-- scroll -->
+		 	<script type="text/javascript">
+				$(document).ready(function() {
+					var defaults = {
+			  			containerID: 'toTop', // fading element id
+						containerHoverID: 'toTopHover', // fading element hover id
+						scrollSpeed: 1200,
+						easingType: 'linear' 
+			 		};
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+
+			<!-- //scroll -->	
+			<!-- start portfolios -->
+			<script type="text/javascript">
+				$('body').flipLightBox()
+			</script>
+				
+			<script type="text/javascript">
+				$(function() {
+					var filterList = {
+						init : function() {
+							// MixItUp plugin
+							// http://mixitup.io
+							$('#portfoliolist').mixitup({
+								targetSelector : '.portfolio',
+								filterSelector : '.filter',
+								effects : ['fade'],
+								easing : 'snap',
+								// call the hover effect
+								onMixEnd : filterList.hoverEffect()
+							});
+						},
+						hoverEffect : function() {
+							// Simple parallax effect
+							$('#portfoliolist .portfolio').hover(function() {
+								$(this).find('.label').stop().animate({
+									bottom : 0
+								}, 200, 'easeOutQuad');
+								$(this).find('img').stop().animate({
+									top : -40
+								}, 500, 'easeOutQuad');
+							}, function() {
+								$(this).find('.label').stop().animate({
+									bottom : -40
+								}, 200, 'easeInQuad');
+								$(this).find('img').stop().animate({
+									top : 0
+								}, 300, 'easeOutQuad');
+							});
+
+						}
+					};
+					// Run the show!
+					filterList.init();
+				});
+			</script>
+
+
+		 <!-- nav -->  
+			<script type="text/javascript">
+				$(document).ready( function() {
+				    $('.subMenu').smint({
+				    	'scrollSpeed' : 1000
+				    });
+				});
+			</script>
+
+			<script>
+				window.addEventListener("load",function() {
+				  setTimeout(function(){
+				    window.scrollTo(0, 1);
+				  }, 0);
+				});
+			</script>
+		</body>
+</html>
+
