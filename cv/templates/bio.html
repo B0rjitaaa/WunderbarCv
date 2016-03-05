@@ -13,10 +13,8 @@
 			<div class="subMenu2">
 				<div class="wrap">
 			 		<div class="inner">
-				 		<a href="#" id="sTop" class="subNavBtn" style="text-decoration:none; color:white">VALUES</a> 
-						<a href="#" id="s1" class="subNavBtn" style="text-decoration:none; color:white">WORKS</a>
-						<a href="#" id="s2" class="subNavBtn" style="text-decoration:none; color:white">SKILLS</a>
-						<a href="#" id="s6" class="subNavBtn end" style="text-decoration:none; color:white">CONTACT</a>
+				 		<a href="{% url 'index' %}" class="subNavBtn" style="text-decoration:none; color:white">HOME</a>
+						<a href="{% url 'bio' %}" class="subNavBtn" style="text-decoration:none; color:white">BIO</a>
 					</div>	
 		    	</div>	
 		   	</div>
@@ -32,7 +30,6 @@
 				<div class="col-sm-12 col-md-12 user-details">
 		            <div class="user-image">
 		                <img src="/media/images/foto-own.png" alt="Borja M. Merchán" title="Borja M. Merchán" class="img-circle"  width="100px" height="100px">
-
 		            </div>
 		            <div class="user-info-block">
 		                <div class="user-heading">
@@ -40,8 +37,6 @@
 		                    <span class="help-block">Seville, SPN</span>
 		                </div>
 		                <div class="user-body">
-
-							<!--a ver-->
 							<ul class="timeline">
 								<li>
 					          		<div class="timeline-badge success">
@@ -119,8 +114,7 @@
 		            </div>
 		        </div>
 			</div>
-		</div>
-	<!-- scroll_top_btn -->
+		</div>>
 		<a href="#" id="toTop" style="display: block;">
 			<span id="toTopHover" style="opacity: 1;"></span>
 		</a>
