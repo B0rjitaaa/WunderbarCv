@@ -10,3 +10,7 @@ def index(request):
 def bio(request):
 	response = {}
 	return render(request, 'bio.html', response)
+
+def works(request):
+	response = {}
+	return render(request, 'works.html', response)
