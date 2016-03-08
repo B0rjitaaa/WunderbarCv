@@ -5,13 +5,9 @@ h2 {
     font-weight: 600;
 }
 
-.user-details .user-info-block {
-  width: 100%; 
-  position: absolute;
-  padding-top: 0px; 
-  background: rgb(255, 255, 255); 
-  z-index: 0;
-}
+
+.user-details .user-info-block {width: 100%; position: absolute; top: 55px; background: rgb(255, 255, 255); z-index: 0; padding-top: 35px;}
+ 
 
 .divider {
   height: 1px;
