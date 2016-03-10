@@ -7,7 +7,10 @@ h2 {
 
 
 .user-details .user-info-block {width: 100%; position: absolute; top: 55px; background: rgb(255, 255, 255); z-index: 0; padding-top: 35px;}
- 
+
+.info {
+  margin-top: 15%;
+} 
 
 .divider {
   height: 1px;
