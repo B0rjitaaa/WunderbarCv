@@ -9,14 +9,19 @@ h2 {
 .user-details .user-info-block {width: 100%; position: absolute; top: 55px; background: rgb(255, 255, 255); z-index: 0; padding-top: 35px;}
 
 .info {
-  margin-top: 15%;
+  /*margin-top: 15%;*/
+}
+
+.technology {
+  margin-top: 5%;
 } 
 
 .divider {
   height: 1px;
   width:100%;
   display:block; /* for use on default inline elements like span */
-  margin: 9px 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
   overflow: hidden;
   background-color: #e5e5e5;
 }
