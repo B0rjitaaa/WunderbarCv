@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-16 12:23+0100\n"
+"POT-Creation-Date: 2016-03-16 19:30+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,14 +18,268 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: WunderbarCv/settings.py:91
+#: WunderbarCv/settings.py:84
 msgid "English"
 msgstr "Inglés"
 
-#: WunderbarCv/settings.py:92
+#: WunderbarCv/settings.py:85
 msgid "Spanish"
 msgstr "Español"
 
-#: cv/templates/index.html:103
+#: cv/templates/bio.html:18 cv/templates/works.html:18
+msgid "HOME"
+msgstr "INICIO"
+
+#: cv/templates/bio.html:19 cv/templates/index.html:76
+#: cv/templates/works.html:19
+msgid "BIO"
+msgstr "BIO"
+
+#: cv/templates/bio.html:20 cv/templates/index.html:73
+#: cv/templates/index.html.py:128 cv/templates/works.html:20
+msgid "WORKS"
+msgstr "PROYECTOS"
+
+#: cv/templates/bio.html:40
+msgid "Seville, SPN"
+msgstr "Sevilla, ESP"
+
+#: cv/templates/bio.html:54
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Advanced management of Linux systems.</"
+"ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Security admin.</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Software distribution tools.</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Server deployment & maintenance: Apache, "
+"MySQL, Passenger and Apache Tomcat. </ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Deployment on Cloud computing private "
+"systems: AWS, Azure and Google Compute Engine</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Management tools for software projects.</"
+"ul>\n"
+"\t\t\t\t\t\t            \t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Administración de sistemas Linux, nivel "
+"avanzado.</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Gestión de la Seguridad</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Herramientas para la distribución de "
+"Software</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Despliegue, gestión, configuración y "
+"mantenimiento de servidores, MySQL, Passenger y Apache Tomcat. </ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Despliegue en sistemas de Cloud computing "
+"público: AWS, Azure y Google Compute Engine</ul>\n"
+"\t\t\t\t\t\t\t            \t\t<ul>Herramientas de colaboración en proyectos "
+"Software.</ul>\n"
+"\t\t\t\t\t\t            \t\t"
+
+#: cv/templates/bio.html:71
+msgid "Degree of Computer Engineering - Software Engineering at ETSII Seville"
+msgstr ""
+"Grado en Ingeniería Informática - Ingeniería del Software en ETSII Seville"
+
+#: cv/templates/bio.html:82
+msgid ""
+"Certification in development & management with Oracle database at ETSII "
+"Seville"
+msgstr ""
+"Certificado en Desarrollo y gestión de Bases de Datos Oracle en ETSII Sevilla"
+
+#: cv/templates/bio.html:86
+msgid "Introduction to management systems Oracle Database."
+msgstr "Introducción a los sistemas gestores de BD Oracle"
+
+#: cv/templates/bio.html:87
+msgid "Creating Databases and Oracle Objects."
+msgstr "Creación de Bases de Datos y Objetos Oracle."
+
+#: cv/templates/bio.html:88
+msgid "Administration and Management DB Oracle."
+msgstr "Administración y Gestión de BD Oracle."
+
+#: cv/templates/bio.html:89
+msgid "Tasks of an Oracle DBA."
+msgstr "Tareas de un DBA de Oracle"
+
+#: cv/templates/bio.html:90
+msgid "PL / SQL."
+msgstr "PL / SQL."
+
+#: cv/templates/bio.html:91
+msgid "Developing Applications with Oracle."
+msgstr "Desarrollando Aplicaciones con Oracle "
+
+#: cv/templates/bio.html:101
+msgid "Erasmus Professional working at MJ Toland Co. (Northern Ireland)."
+msgstr ""
+"Erasmus - Prácticas profesionales en  MJ Toland Co. (Irlanda del Norte)."
+
+#: cv/templates/bio.html:112
+msgid "Higher certificate in computer systems development"
+msgstr "CFGS Desarrollo de Aplicaciones Informáticas"
+
+#: cv/templates/index.html:72 cv/templates/index.html.py:104
 msgid "VALUES"
 msgstr "VALORES"
+
+#: cv/templates/index.html:74 cv/templates/index.html.py:214
+msgid "SKILLS"
+msgstr "HABILIDADES"
+
+#: cv/templates/index.html:75 cv/templates/index.html.py:351
+msgid "CONTACT"
+msgstr "CONTACTO"
+
+#: cv/templates/index.html:87
+msgid "Values"
+msgstr "Valores"
+
+#: cv/templates/index.html:88
+msgid "Works"
+msgstr "Trabajos"
+
+#: cv/templates/index.html:89
+msgid "Skills"
+msgstr "Habilidades"
+
+#: cv/templates/index.html:90
+msgid "Contact"
+msgstr "Contacto"
+
+#: cv/templates/index.html:107
+msgid "CUSTOM MEETINGS"
+msgstr "REUNIONES PERSONALIZADAS"
+
+#: cv/templates/index.html:111
+msgid "PEREFCT CODING"
+msgstr "DESARROLLO EFICIENTE"
+
+#: cv/templates/index.html:115
+msgid "CREATIVE DESIGN"
+msgstr "DISEÑO CREATIVO"
+
+#: cv/templates/index.html:119
+msgid "AMAZING PROJECTS"
+msgstr "PROYECTOS GENIALES"
+
+#: cv/templates/index.html:133 cv/templates/index.html.py:143
+msgid "VIEW All"
+msgstr "VER TODOS"
+
+#: cv/templates/index.html:134
+msgid "ILLUSTRATION"
+msgstr "ILUSTRACIÓN"
+
+#: cv/templates/index.html:135
+msgid "LOGO"
+msgstr "LOGO"
+
+#: cv/templates/index.html:136
+msgid "THIPOGRAPHY"
+msgstr "TIPOGRAFÍA"
+
+#: cv/templates/index.html:137
+msgid "POSTER"
+msgstr "PÓSTER"
+
+#: cv/templates/index.html:146
+msgid "eCommerce"
+msgstr "eCommerce"
+
+#: cv/templates/index.html:149
+msgid "Web Catalog"
+msgstr "Catálogo Web"
+
+#: cv/templates/index.html:306
+msgid "PERFECT WAY OF WORKING"
+msgstr "LA MANERA PERFECTA DE TRABAJAR"
+
+#: cv/templates/index.html:311
+msgid "DRINK BLACK TEA"
+msgstr "BEBER TÉ NEGRO"
+
+#: cv/templates/index.html:315
+msgid "ALWAYS HAPPY"
+msgstr "SIEMPRE CONTENTO"
+
+#: cv/templates/index.html:319
+msgid "PLAY GOOD MUSIC"
+msgstr "BUENA MÚSICA"
+
+#: cv/templates/index.html:323
+msgid "BEST SOLUTION"
+msgstr "LA MEJOR SOLÚCIÓN"
+
+#: cv/templates/index.html:355
+msgid "NAME"
+msgstr "NOMBRE"
+
+#: cv/templates/index.html:370
+msgid "MESSAGE"
+msgstr "MENSAJE"
+
+#: cv/templates/index.html:372
+msgid "Submit"
+msgstr "Enviar"
+
+#: cv/templates/index.html:391
+msgid "Your E-MAIL Please"
+msgstr "Tu email por favor"
+
+#: cv/templates/index.html:392
+msgid "Sign Up Now"
+msgstr "Enviar ahora"
+
+#: cv/templates/index.html:393
+msgid "Promise I do not spam"
+msgstr "No te mandaré spam"
+
+#: cv/templates/index.html:430
+msgid "Made with"
+msgstr "Desarrollado con"
+
+#: cv/templates/index.html:432
+msgid "and"
+msgstr "y"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "\t\t\t\t\t\t\t            \t\t<ul>Advanced management of Linux systems.</"
+#~| "ul>\n"
+#~| "\t\t\t\t\t\t\t            \t\t<ul>Security admin.</ul>\n"
+#~| "\t\t\t\t\t\t\t            \t\t<ul>Software distribution tools.</ul>\n"
+#~| "\t\t\t\t\t\t\t            \t\t<ul>Server deployment & maintenance: "
+#~| "Apache, MySQL, Passenger and Apache Tomcat. </ul>\n"
+#~| "\t\t\t\t\t\t\t            \t\t<ul>Deployment on Cloud computing private "
+#~| "systems: AWS, Azure and Google Compute Engine</ul>\n"
+#~| "\t\t\t\t\t\t\t            \t\t<ul>Management tools for software projects."
+#~| "</ul>\n"
+#~| "\t\t\t\t\t\t            \t\t"
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Introduction to management systems "
+#~ "Oracle Database.</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Creating Databases and Oracle Objects.</"
+#~ "ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Administration and Management DB Oracle."
+#~ "</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Tasks of an Oracle DBA.</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>PL / SQL.</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Developing Applications with Oracle.</"
+#~ "ul>\n"
+#~ "\t\t\t\t\t\t            \t\t"
+#~ msgstr ""
+#~ "\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Administración de sistemas Linux, nivel "
+#~ "avanzado.</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Gestión de la Seguridad</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Herramientas para la distribución de "
+#~ "Software</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Despliegue, gestión, configuración y "
+#~ "mantenimiento de servidores, MySQL, Passenger y Apache Tomcat. </ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Despliegue en sistemas de Cloud "
+#~ "computing público: AWS, Azure y Google Compute Engine</ul>\n"
+#~ "\t\t\t\t\t\t\t            \t\t<ul>Herramientas de colaboración en "
+#~ "proyectos Software.</ul>\n"
+#~ "\t\t\t\t\t\t            \t\t"

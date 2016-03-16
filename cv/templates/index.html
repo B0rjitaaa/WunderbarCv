@@ -69,11 +69,11 @@
 			<div class="subMenu" >
 				<div class="wrap">
 			 	 <div class="inner">
-			 		<a href="#" id="sTop" class="subNavBtn" style="text-decoration:none; color:white">VALUES</a> 
-					<a href="#" id="s1" class="subNavBtn" style="text-decoration:none; color:white">WORKS</a>
-					<a href="#" id="s2" class="subNavBtn" style="text-decoration:none; color:white">SKILLS</a>
-					<a href="#" id="s6" class="subNavBtn end" style="text-decoration:none; color:white">CONTACT</a>
-					<a href="{% url 'bio' %}" class="subNavBtn" style="text-decoration:none; color:white">BIO</a>
+			 		<a href="#" id="sTop" class="subNavBtn" style="text-decoration:none; color:white">{% trans "VALUES" %}</a> 
+					<a href="#" id="s1" class="subNavBtn" style="text-decoration:none; color:white">{% trans "WORKS" %}</a>
+					<a href="#" id="s2" class="subNavBtn" style="text-decoration:none; color:white">{% trans "SKILLS" %}</a>
+					<a href="#" id="s6" class="subNavBtn end" style="text-decoration:none; color:white">{% trans "CONTACT" %}</a>
+					<a href="{% url 'bio' %}" class="subNavBtn" style="text-decoration:none; color:white">{% trans "BIO" %}</a>
 				  </div>
 				   <!-- /.navbar-collapse -->
 		             	<a id="s7" class="right-msg subNavBtn msg-icon"href="#"><span> </span></a>
@@ -84,10 +84,10 @@
 			<!-- start smart_nav * -->
 		 	<nav class="nav">
 	            <ul class="nav-list">
-	                <li class="nav-item"><a href="#values">Values</a></li>
-	                <li class="nav-item"><a href="#work" class="scroll">Works</a></li>
-	                <li class="nav-item"><a href="#skills" class="scroll">Skills</a></li>           	               
-	                <li class="nav-item"><a href="#contact"  class="scroll">Contact</a></li>
+	                <li class="nav-item"><a href="#values">{% trans "Values" %}</a></li>
+	                <li class="nav-item"><a href="#work" class="scroll">{% trans "Works" %}</a></li>
+	                <li class="nav-item"><a href="#skills" class="scroll">{% trans "Skills" %}</a></li>           	               
+	                <li class="nav-item"><a href="#contact"  class="scroll">{% trans "Contact" %}</a></li>
 	                <div class="clear"></div>
 	            </ul>
 	    	</nav>
@@ -104,19 +104,19 @@
 	  		<h3>{% trans "VALUES"%}</h3>
 			<div class="col_1_of_3 span_1_of_4">
 				<img src="{% static 'images/service4.png' %}" alt="">
-				<h4><a href="#">CUSTOM MEETINGS</a></h4>
+				<h4><a href="#">{% trans "CUSTOM MEETINGS" %}</a></h4>
 			</div>
 			<div class="col_1_of_3 span_1_of_4">
 				<img src="{% static 'images/service1.png' %}" alt="">
-				<h4><a href="#">PEREFCT CODING</a></h4>
+				<h4><a href="#">{% trans "PEREFCT CODING" %}</a></h4>
 			</div>
 			<div class="col_1_of_3 span_1_of_4">
 				<img src="{% static 'images/service2.png' %}" alt="">
-				<h4><a href="#">CREATIVE DESIGN</a></h4>
+				<h4><a href="#">{% trans "CREATIVE DESIGN" %}</a></h4>
 			</div>
 			<div class="col_1_of_3 span_1_of_4">
 				<img src="{% static 'images/service3.png' %}" alt="">
-				<h4><a href="#">AMAZING PROJECTS</a></h4>
+				<h4><a href="#">{% trans "AMAZING PROJECTS" %}</a></h4>
 					</div>
 			 <div class="clear"></div>
    		</div>
@@ -125,28 +125,28 @@
 	<!-- start portfoli1 -->
    	<div class="portfoliO s1" id="work">
 		<div class="wrap">	
-			<h3>WORKS</h3>
+			<h3>{% trans "WORKS" %}</h3>
 			<div class="container"><!-- start container -->		 
 	  			<!-- start h_menu -->
 				<div class="h_menu">
 					<ul class="flexy-menu thick orange">
-		                <li class="active"> <span class="filter active" data-filter="app card icon web">VIEW ALL</span></li>
-		                <li><span class="filter" data-filter="app  icon">ILLUSTRATION</span></li>
-		                <li><span class="filter" data-filter="card ">LOGO</span></li>				            
-		                <li><span class="filter" data-filter="icon app card ">THIPOGRAPHY</span></li>
-		                <li><span class="filter" data-filter="web card icon">POSTER</span></li>
+		                <li class="active"> <span class="filter active" data-filter="app card icon web">{% trans "VIEW All" %}</span></li>
+		                <li><span class="filter" data-filter="app  icon">{% trans "ILLUSTRATION" %}</span></li>
+		                <li><span class="filter" data-filter="card ">{% trans "LOGO" %}</span></li>				            
+		                <li><span class="filter" data-filter="icon app card ">{% trans "THIPOGRAPHY" %}</span></li>
+		                <li><span class="filter" data-filter="web card icon">{% trans "POSTER" %}</span></li>
 					</ul>
 				</div>	<!-- end h_menu -->
 			<!-- end smart_nav * -->
 				<ul id="filters" class="clearfix">
 					<li>
-						<span class="filter active" data-filter="app card icon web">VIEW ALL</span>
+						<span class="filter active" data-filter="app card icon web">{% trans "VIEW All" %}</span>
 					</li>
 					<li>
-						<span class="filter" data-filter="app  icon">eCommerce</span>
+						<span class="filter" data-filter="app  icon">{% trans "eCommerce" %}</span>
 					</li>
 					<li>
-						<span class="filter" data-filter="web card icon">Web Catalog</span>
+						<span class="filter" data-filter="web card icon">{% trans "Web Catalog" %}</span>
 					</li>
 				</ul>
 						
@@ -211,7 +211,7 @@
   	<!----start-team-members---->
 	<div class="team-members s2" id="skills">
 		<div class="ex-head">
-			<h3>SKILLS</h3>
+			<h3>{% trans "SKILLS" %}</h3>
 		</div>
 		<div class="container">
 			<div class="row">               
@@ -303,24 +303,24 @@
 	<div class="fun">
 		<div class="wrap"> 
 			<div class="fun-head">
-				<h3>PERFECT WAY OF WORKING</h3>							
+				<h3>{% trans "PERFECT WAY OF WORKING" %}</h3>							
 			</div>
 			<div class="fun-head-grids">
 				<div class="fun-head-grid">
 					<img src="{% static 'images/fact1.png' %}" alt="" />
-					<h5>DRINKING BLACK TEA</h5>						
+					<h5>{% trans "DRINK BLACK TEA" %}</h5>						
 				</div>
 				<div class="fun-head-grid">
 					<img src="{% static 'images/fact2.png' %}" alt="" />
-					<h5>ALWAYS HAPPY</h5>					
+					<h5>{% trans "ALWAYS HAPPY" %}</h5>					
 				</div>
 				<div class="fun-head-grid">
 					<img src="{% static 'images/fact3.png' %}" alt="" />
-					<h5>PLAYING GOOD MUSIC</h5>								
+					<h5>{% trans "PLAY GOOD MUSIC" %}</h5>								
 				</div>
 				<div class="fun-head-grid">
 					<img src="{% static 'images/fact4.png' %}" alt="" />
-					<h5>IMPROVEMENT OF PROJECTS</h5>								
+					<h5>{% trans "BEST SOLUTION" %}</h5>								
 				</div>
 				<div class="clear"> </div>
 			</div>
@@ -348,11 +348,11 @@
 	 <!-----cntact---->	
 	<div class="contact s6" id="contact">
 		<div class="wrap">
-			<h3>CONTACT</h3>
+			<h3>{% trans "CONTACT" %}</h3>
 	        <div class="contact_form">
 	 	 	    <form method="post" action="contact-post.html">
 			    	<span>
-			    		<input type="text" value="NAME" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'NAME';}">
+			    		<input type="text" value="{% trans "NAME" %}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'NAME';}">
 			    		<label>
 			    			<img src="{% static 'images/con1.png' %}" alt="" />
 			    		</label>
@@ -367,9 +367,9 @@
 
 				    <div class="clear"></div>
 	    				<span>
-					    	<textarea placeholder="MESSAGE"></textarea>
+					    	<textarea placeholder="{% trans "MESSAGE" %}"></textarea>
 				    	</span>
-				   		<input type="submit" class="" value="Submit">
+				   		<input type="submit" class="" value="{% trans "Submit" %}">
 			    </form>
 			 </div>
 		</div>
@@ -388,9 +388,9 @@
 		   		  
   	<div class="signup">
      	<div class="form">	
-			<span><label><img src="{% static 'images/msg.png' %}" alt="" /></label><input type="text" value="Your E-MAIL Please?" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your E-MAIL Please?';}"></span>
-			<span><input type="submit" value="Sign Up Now" id="submit" name="submit"></span>
-			<p>Promise I do not spam : )</p>
+			<span><label><img src="{% static 'images/msg.png' %}" alt="" /></label><input type="text" value="{% trans "Your E-MAIL Please" %}?" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your E-MAIL Please?';}"></span>
+			<span><input type="submit" value="{% trans "Sign Up Now" %}" id="submit" name="submit"></span>
+			<p>{% trans "Promise I do not spam" %} : )</p>
 			<div class="clear"> </div>
 	  	</div>
  	</div>
@@ -427,9 +427,9 @@
 
 		</div>
 		<div class="bottom-footer-left">
-			<p>Made with 
+			<p>{% trans "Made with" %} 
                             <i class="fa fa-heart" style="color:red"></i> 
-                            and 
+                            {% trans "and" %} 
                             <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/29679-200.png" style="width:15px; height=20px:" alt="shisha"></p>
 		</div>		  
 		<div class="clear"> </div>

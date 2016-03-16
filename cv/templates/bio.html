@@ -1,5 +1,7 @@
 {% extends "base.html" %}
 {% load static %}
+{% load i18n %}
+{% load l10n %}
 <body>
 	{% block header %}
 		
@@ -13,9 +15,9 @@
 			<div class="subMenu2">
 				<div class="wrap">
 			 		<div class="inner">
-				 		<a href="{% url 'index' %}" class="subNavBtn" style="text-decoration:none; color:white">HOME</a>
-						<a href="{% url 'bio' %}" class="subNavBtn" style="text-decoration:none; color:white">BIO</a>
-						<a href="{% url 'works' %}" class="subNavBtn" style="text-decoration:none; color:white">WORKS</a>
+				 		<a href="{% url 'index' %}" class="subNavBtn" style="text-decoration:none; color:white">{% trans "HOME" %}</a>
+						<a href="{% url 'bio' %}" class="subNavBtn" style="text-decoration:none; color:white">{% trans "BIO" %}</a>
+						<a href="{% url 'works' %}" class="subNavBtn" style="text-decoration:none; color:white">{% trans "WORKS" %}</a>
 					</div>	
 		    	</div>	
 		   	</div>
@@ -30,12 +32,12 @@
 			<div class="row">
 				<div class="col-sm-12 col-md-12 user-details">
 		            <div class="user-image">
-		                <img src="/media/images/foto-own.png" alt="Borja M. Merchán" title="Borja M. Merchán" class="img-circle"  width="100px" height="100px">
+		                <img src="{% static 'images/foto-own.png' %}" alt="Borja M. Merchán" title="Borja M. Merchán" class="img-circle"  width="100px" height="100px">
 		            </div>
 		            <div class="user-info-block">
 		                <div class="user-heading">
 		                    <h3>Borja M. Merchán</h3>
-		                    <span class="help-block">Seville, SPN</span>
+		                    <span class="help-block">{% trans "Seville, SPN" %}</span>
 		                </div>
 		                <div class="user-body">
 							<ul class="timeline">
@@ -49,12 +51,14 @@
 							              	<p><small class="text-muted"><i class="fa fa-calendar"></i> Feb. 2016 - (90 h)</small></p>
 						            	</div>
 						            	<div class="timeline-body">
-						            		<ul>Advanced management of Linux systems.</ul>
-						            		<ul>Security admin.</ul>
-						            		<ul>Software distribution tools.</ul>
-						            		<ul>Server deployment & maintenance: Apache, MySQL, Passenger and Apache Tomcat. </ul>
-						            		<ul>Deployment on Cloud computing private systems: AWS, Azure and Google Compute Engine</ul>
-						            		<ul>Management tools for software projects.</ul>
+						            		{% blocktrans %}
+							            		<ul>Advanced management of Linux systems.</ul>
+							            		<ul>Security admin.</ul>
+							            		<ul>Software distribution tools.</ul>
+							            		<ul>Server deployment & maintenance: Apache, MySQL, Passenger and Apache Tomcat. </ul>
+							            		<ul>Deployment on Cloud computing private systems: AWS, Azure and Google Compute Engine</ul>
+							            		<ul>Management tools for software projects.</ul>
+						            		{% endblocktrans %}
 						            	</div>
 						          	</div>
 						        </li>
@@ -64,7 +68,7 @@
 					          		</div>
 						          	<div class="timeline-panel">
 						            	<div class="timeline-heading">
-							              	<h4 class="timeline-title">Degree of Computer Engineering - Software Engineering at ETSII Seville</h4>
+							              	<h4 class="timeline-title">{% trans "Degree of Computer Engineering - Software Engineering at ETSII Seville" %}</h4>
 							              	<p><small class="text-muted"><i class="fa fa-calendar"></i> 2010 - 2014</small></p>
 						            	</div>
 						          	</div>
@@ -75,16 +79,16 @@
 						        	</div>
 					          		<div class="timeline-panel">
 						            	<div class="timeline-heading">
-							              	<h4 class="timeline-title">Certification in development & management with Oracle database at ETSII Seville</h4>
+							              	<h4 class="timeline-title">{% trans "Certification in development & management with Oracle database at ETSII Seville" %}</h4>
 							              	<p><small class="text-muted"><i class="fa fa-calendar"></i> Oct. 2011 - (21 h)</small></p>
 						            	</div>
 						            	<div class="timeline-body">
-						            		<ul>Introduction to management systems Oracle Database.</ul>
-						            		<ul>Creating Databases and Oracle Objects.</ul>
-						            		<ul>Administration and Management DB Oracle.</ul>
-						            		<ul>Tasks of an Oracle DBA.</ul>
-						            		<ul>PL / SQL.</ul>
-						            		<ul>Developing Applications with Oracle.</ul>
+						            		<ul>{% trans "Introduction to management systems Oracle Database." %}</ul>
+						            		<ul>{% trans "Creating Databases and Oracle Objects." %}</ul>
+						            		<ul>{% trans "Administration and Management DB Oracle." %}</ul>
+						            		<ul>{% trans "Tasks of an Oracle DBA." %}</ul>
+						            		<ul>{% trans "PL / SQL." %}</ul>
+						            		<ul>{% trans "Developing Applications with Oracle." %}</ul>
 						            	</div>
 						          	</div>
 						        </li>
@@ -94,7 +98,7 @@
 					          		</div>
 						          	<div class="timeline-panel">
 						            	<div class="timeline-heading">
-							              	<h4 class="timeline-title">Erasmus Professional working at MJ Toland Co. (Northern Ireland).</h4>
+							              	<h4 class="timeline-title">{% trans "Erasmus Professional working at MJ Toland Co. (Northern Ireland)." %}</h4>
 							              	<p><small class="text-muted"><i class="fa fa-calendar"></i> May - Jun. 2010</small></p>
 						            	</div>
 						          	</div>
@@ -105,7 +109,7 @@
 						        	</div>
 					          		<div class="timeline-panel">
 						            	<div class="timeline-heading">
-							              	<h4 class="timeline-title">Higher certificate in computer systems development</h4>
+							              	<h4 class="timeline-title">{% trans "Higher certificate in computer systems development" %}</h4>
 							              	<p><small class="text-muted"><i class="fa fa-calendar"></i> 2008 - 2010 </small></p>
 						            	</div>
 						          	</div>
