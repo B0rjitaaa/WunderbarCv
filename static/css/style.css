@@ -125,7 +125,7 @@ body {
 	 width: 174px;
 	 height: 56px;
 	 display: inline-block;
-	 background: url(/media/images/logo.png) no-repeat 0px 0px;
+	 background: url(/static/images/logo.png) no-repeat 0px 0px;
 	 vertical-align: middle;
 }
 .right-msg{
@@ -156,7 +156,7 @@ body {
 	position: absolute;
 	top: 12px;
 	left: 11px;
-	background: url(/media/images/nav_icon.png) 60% 60% no-repeat;
+	background: url(/static/images/nav_icon.png) 60% 60% no-repeat;
 	height:32px;
 	width: 32px;
 }
@@ -601,13 +601,13 @@ a.popup-with-zoom-anim img {
 	display:block;
 }
 .twitter{
-	background:url(/media/images/top-social-icons.png) no-repeat 0px 0px;
+	background:url(/static/images/top-social-icons.png) no-repeat 0px 0px;
 }
 .facebook{
-	background: url(/media/images/top-social-icons.png) no-repeat -82px 0px;
+	background: url(/static/images/top-social-icons.png) no-repeat -82px 0px;
 }
 .pin{
-	background: url(/media/images/top-social-icons.png) no-repeat -207px 0px;
+	background: url(/static/images/top-social-icons.png) no-repeat -207px 0px;
 }
 /*--------social simptip--------*/
 [data-tooltip] {
@@ -1045,7 +1045,7 @@ display:none;
 
 .nbs-flexisel-nav-left {
     left: 10px;
-    /*background: url(/media/images/button-previous.png) no-repeat;*/
+    /*background: url(/static/images/button-previous.png) no-repeat;*/
 }
 
 .nbs-flexisel-nav-right {

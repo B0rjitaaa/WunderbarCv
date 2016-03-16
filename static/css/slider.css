@@ -1,5 +1,5 @@
 .slider_bg {
-	background: url('/media/images/bg.jpg');
+	background: url('/static/images/bg.jpg');
 	background-size: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;

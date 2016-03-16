@@ -1,5 +1,6 @@
 {% load static %}
-
+{% load i18n %}
+{% load l10n %}
 
 <!DOCTYPE HTML>
 <html lang="en">
@@ -100,7 +101,7 @@
     
     <div class="services sTop" id="services">
 	  	<div class="wrap">
-	  		<h3>VALUES</h3>
+	  		<h3>{% trans "VALUES"%}</h3>
 			<div class="col_1_of_3 span_1_of_4">
 				<img src="{% static 'images/service4.png' %}" alt="">
 				<h4><a href="#">CUSTOM MEETINGS</a></h4>
